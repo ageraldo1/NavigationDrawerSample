@@ -1,4 +1,4 @@
-package com.itktechnologies.navigationdrawersample;
+package com.itktechnologies.manicdepressionsuppression;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.itktechnologies.navigationdrawersample;
+package com.itktechnologies.manicdepressionsuppression;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
