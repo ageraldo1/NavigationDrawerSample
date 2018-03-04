@@ -20,7 +20,7 @@
         android:id="@+id/txt_header_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:text="Our Organization"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -52,4 +52,77 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_header_2" />
+
+    <TextView
+        android:id="@+id/txt_header_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="24dp"
+        android:text="Manic Depression"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_header_3" />
+
+    <TextView
+        android:id="@+id/txt_header_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="WHAT IS IT ?"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_header_4" />
+
+    <TextView
+        android:id="@+id/txt_header_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="also known as bipolar disorder.It is a mental disorder associated with severe mood swings in which a person experiences depressed lows and happy times. Caused by a combination of environmental and genetic factors, which alter brain chemistry and structure."
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_header_5" />
+
+    <TextView
+        android:id="@+id/txt_header_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="SYMPTOMS"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_header_6" />
+
+    <TextView
+        android:id="@+id/txt_header_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="8dp"
+        android:text="Mood: moods swings, elevated mood, happiness, sadness, anger, anxiety, euphoria, general discontent, guilt, hopelessness, loss of interest. Behavioral: irritability, risk-taking behavior, aggression, hyperactivity, self-harm.Cognitive/Psychological: depression, paranoia, unwanted thoughts, delusion, lack of concentration.Other common:  difficulty falling asleep or excess sleepiness, weight gain or weight loss, fatigue, rapid speaking."
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_header_7" />
+
+
 </android.support.constraint.ConstraintLayout>
